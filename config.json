@@ -1,0 +1,38 @@
+{
+  "menuIzquierdo": [
+    {
+      "titulo": "Microsoft 365",
+      "url": "https://portal.office.com"
+    },
+    {
+      "titulo": "Admin M365",
+      "url": "https://admin.microsoft.com"
+    },
+    {
+      "titulo": "Entra ID",
+      "url": "https://entra.microsoft.com"
+    },
+    {
+      "titulo": "Defender",
+      "url": "https://security.microsoft.com"
+    }
+  ],
+  "menuDerecho": [
+    {
+      "titulo": "Purview",
+      "url": "https://compliance.microsoft.com"
+    },
+    {
+      "titulo": "Microsoft Learn",
+      "url": "https://learn.microsoft.com"
+    },
+    {
+      "titulo": "Azure Portal",
+      "url": "https://portal.azure.com"
+    },
+    {
+      "titulo": "GitHub",
+      "url": "https://github.com"
+    }
+  ]
+}

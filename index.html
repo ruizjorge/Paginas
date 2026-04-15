@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Accesos Rápidos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 240px 1fr 240px;
+        }
+
+        .menu {
+            background-color: #1f2933;
+            color: #fff;
+            padding: 15px;
+            overflow-y: auto;
+        }
+
+        .grupo {
+            margin-bottom: 20px;
+        }
+
+        .grupo h3 {
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            color: #93c5fd;
+            border-bottom: 1px solid #475569;
+            padding-bottom: 3px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            margin-bottom: 6px;
+        }
+
+        .menu a {
+            color: #cbd5e1;
+            text-decoration: none;
+            display: block;
+            padding: 6px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .menu a:hover {
+            background-color: #3b82f6;
+            color: #fff;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #f3f4f6;
+        }
+
+        @media (max-width: 900px) {
+            body {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- MENÚ IZQUIERDO -->
+<nav class="menu" id="menu-izquierdo"></nav>
+
+<!-- CONTENIDO -->
+<main class="content">
+    <h1>Accesos Rápidos</h1>
+    <p>Enlaces organizados por grupos.</p>
+</main>
+
+<!-- MENÚ DERECHO -->
+<nav class="menu" id="menu-derecho"></nav>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
