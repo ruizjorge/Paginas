@@ -1,5 +1,5 @@
 {
-  "menuIzquierdo": [
+  "MenuIzquierdo": [
     {
       "titulo": "Microsoft 365",
       "url": "https://portal.office.com"
@@ -17,7 +17,7 @@
       "url": "https://security.microsoft.com"
     }
   ],
-  "menuDerecho": [
+  "MenuDerecho": [
     {
       "titulo": "Purview",
       "url": "https://compliance.microsoft.com"
